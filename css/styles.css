@@ -127,8 +127,26 @@ body {
   }
 }
 
+.navbar-inner {
+    min-height: 0px;
+}
+
+.navbar-brand,
+.navbar-nav li a {
+    line-height: 70px;
+    height: 70px;
+}
+
 @media (min-width: 992px) {
   .featurette-heading {
     margin-top: 120px;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-brand,
+  .navbar-nav li a {
+      line-height: 100px;
+      height: 100px;
   }
 }
