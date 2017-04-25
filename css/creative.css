@@ -27,7 +27,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: #eb3812;
+  color: #ff9e1b;
 }
 h1,
 h2,
@@ -125,10 +125,14 @@ aside {
   .navbar-default .nav > li > a:focus:hover {
     color: white;
   }
+
+  /*After Scroll*/
+
   .navbar-default.affix {
-    background-color: #de6a14;
+    background-color: #ea7600;
     border-color: rgba(34, 34, 34, 0.05);
   }
+
   .navbar-default.affix .navbar-header .navbar-brand {
     color: #fbba2c;
     font-size: 14px;
@@ -281,7 +285,7 @@ header .header-content .header-content-inner p {
   margin: 0 auto 20px;
 }
 .text-primary {
-  color: #fbba2c;
+  color: #ff9e1b;
 }
 .no-gutter > [class*='col-'] {
   padding-right: 0;

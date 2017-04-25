@@ -1,3 +1,11 @@
+.home-heading {
+  text-shadow: 2px 2px 8px #000000;
+}
+
+.containers {
+  padding-left: 20px;
+}
+
 /* Carousel base class */
 .carousel {
   height: 300px;
@@ -115,8 +123,12 @@
     height: 70px;
 }
 
+.text-secondary {
+  color: #f7f7f7;
+}
+
 .text-muted {
-  color: #ededed;
+  color: #7b7b7b;
 }
 
 @media (min-width: 992px) {
