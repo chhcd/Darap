@@ -1,5 +1,38 @@
 .home-heading {
   text-shadow: 2px 2px 8px #000000;
+  padding-top: 80px;
+}
+
+.bg-light {
+  background-color: #ffb81c;
+}
+
+.servicios-colors .panel-heading {
+  background-color: #ff9e1b;
+}
+
+.servicios-colors .panel-title {
+  font-weight: bolder;
+  color: white;
+  text-shadow: 1.5px 1.5px 6px #000000;
+  font-size: 18px;
+  padding: auto;
+}
+
+.servicios-colors .panel-body {
+  background-color: #ffb81c;
+  color: #f7f7f7;
+  font-size: 16px;
+}
+
+.proyectos-colors .panel-primary {
+  background-color: #ffb81c;
+  border-style: none;
+  color: white;
+}
+
+.bold {
+  font-weight: 900;
 }
 
 .containers {
@@ -8,6 +41,11 @@
 
 .no-top-padding {
   padding-top: 0px;
+}
+
+.project-list {
+  list-style-type: none;
+  font-size: 18px;
 }
 
 /* Carousel base class */
