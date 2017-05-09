@@ -21,18 +21,18 @@
 
 .servicios-colors .panel-body {
   background-color: #ffb81c;
-  color: #f7f7f7;
+  color: #424241;
   font-size: 16px;
 }
 
 .proyectos-colors .panel-primary {
-  background-color: #ffb81c;
+  background-color: #ff9e1b;
   border-style: none;
   color: white;
 }
 
 .bold {
-  font-weight: 900;
+  font-weight: 500;
 }
 
 .containers {
@@ -44,7 +44,6 @@
 }
 
 .project-list {
-  list-style-type: none;
   font-size: 18px;
 }
 
@@ -61,17 +60,19 @@
 .carousel-caption h1 {
   margin-bottom: 5px;
   font-size: 16px;
-  line-height: 1.4;
-  color: #f3961d;
+  line-height: 1;
+  color: white;
   font-weight: 800;
+  text-shadow: 2px 2px 8px #000000;
 }
 
 .carousel-caption p {
   margin-bottom: 5px;
   font-size: 14px;
-  line-height: 1.4;
-  color: #fbba2c;
+  line-height: 1;
+  color: #f7f7f7;
   font-weight: 800;
+  text-shadow: 2px 2px 8px #000000;
 }
 
 /* Declare heights because of positioning of img element */
@@ -107,15 +108,15 @@
   }
 
   .carousel-caption h1 {
-    margin-bottom: 20px;
-    font-size: 36px;
-    line-height: 1.4;
+    margin-bottom: 5px;
+    font-size: 22px;
+    line-height: 1;
   }
 
   .carousel-caption p {
-    margin-bottom: 20px;
-    font-size: 21px;
-    line-height: 1.4;
+    margin-bottom: 5px;
+    font-size: 16px;
+    line-height: 1;
   }
 }
 
