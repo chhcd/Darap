@@ -1,3 +1,19 @@
+.video-attributes {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px; height: 0; overflow: hidden;
+}
+ 
+.video-attributes iframe,
+.video-attributes object,
+.video-attributes embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .home-heading {
   text-shadow: 2px 2px 8px #000000;
   padding-top: 80px;
@@ -15,7 +31,6 @@
   font-weight: bolder;
   color: white;
   text-shadow: 1.5px 1.5px 6px #000000;
-  font-size: 18px;
   padding: auto;
 }
 
@@ -44,7 +59,7 @@
 }
 
 .project-list {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 /* Carousel base class */
